@@ -21,7 +21,7 @@ This dataset contains over 8600 rows of data, on each row is a person’s:
 This data was collected through the PersonalityCafe forum, as it provides a large selection of people and their MBTI personality type, as well as what they have written.
 
 ## Steps
-Our goal is to split each 'posts' entry up into individual entries categorized by MBTI type, then clean the data to make it appropriate for use in a classification model. For this tast, pandas, matplotlib, nltk, and re libraries will be used.
+Our goal is to split each 'posts' entry up into individual entries categorized by MBTI type, then clean the data to make it appropriate for use in a text classification model. For this tast, pandas, matplotlib, nltk, and re libraries will be used.
 ### 1. Visualization
 Once the data is read into the environment, there is a total of 8675 rows of data. use .value_counts() on personality type to see how many entries the dataset has per personality type. This returns a scewed distribution of data over personality types. 
 ### 2. Entry Splitting
