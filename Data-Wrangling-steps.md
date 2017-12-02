@@ -25,7 +25,7 @@ Our goal is to split each 'posts' entry up into individual entries categorized b
 ### 1. Visualization
 Once the data is read into the environment, there is a total of 8675 rows of data. use ```.value_counts()``` on personality type to see how many entries the dataset has per personality type. This returns a skewed distribution of data over personality types. 
 ### 2. Entry Splitting
-Since each entry is actually described as having 50 separate comments separated by ```"|||"``` characters. Set the personality type (```mbti_df.type```) as the index, then split each entry by these characters. Stack the resulting data on the original dataframe, then unstack the index at level=0 to reset the index and fill each new entry in``` mbti_df.type``` with the corresponding personality type.
+Since each entry is actually described as having 50 separate comments separated by ```"|||"``` characters. Set the personality type (```mbti_df.type```) as the index, then split each entry by these characters. Stack the resulting data on the original dataframe, then unstack the index at ```level=0``` to reset the index and fill each new entry in``` mbti_df.type``` with the corresponding personality type.
 ### 3. Re-checking the Data
 Once the entries are split, re-examining the data shows that the dataframe now contains 422,845 entries (433,750 expected). The data is still skewed with several personality types disproportionately represented. 
 ### 4. Remove Escaping HTML Characters
