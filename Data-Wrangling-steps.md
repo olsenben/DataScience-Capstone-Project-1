@@ -37,7 +37,7 @@ All the contractions need to be removed. Just like escaping HTML characters, apo
 ### 7. Remove Digits
 Since digits won't contribute to a text analysis, using ```re``` library's ```.sub()``` and a regular expression, remove all digits from entries.
 ### 8. Remove Punctuation
-To prevent any odd interaction with code in the future, remove all punctuation from the entries. It won't be useful anyway. I used ```str.replace(```) with a regular expression to replace all punctuation with an empty string. 
+To prevent any odd interaction with code in the future, remove all punctuation from the entries. It won't be useful anyway. I used ```str.replace()``` with a regular expression to replace all punctuation with an empty string. 
 ### 9. Remove Stopwords
 Remove all the stop words in the dataframe. Stopwords are words that don't really contribute anything useful to the text analysis so  just remove them completely using stopwords from ```nltk.corpus```
 ### 10. Filter Out Empty Entries
