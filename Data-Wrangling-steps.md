@@ -14,7 +14,7 @@ Judging (J) – Perceiving (P)
 This dataset contains over 8600 rows of data, on each row is a person’s:
 
 1. Type (This person's 4 letter MBTI code/type)
-2. A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
+2. A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters)). Each comment is collected from PersonalityCafe forum.
 
 ### Acknowledgements
 
@@ -27,7 +27,7 @@ Once the data is read into the environment, there is a total of 8675 rows of dat
 ### 2. Entry Splitting
 Since each entry is actually described as having 50 separate comments separated by ```"|||"``` characters. Set the personality type (```mbti_df.type```) as the index, then split each entry by these characters. Stack the resulting data on the original dataframe, then unstack the index at ```level=0``` to reset the index and fill each new entry in``` mbti_df.type``` with the corresponding personality type.
 ### 3. Re-checking the Data
-Once the entries are split, re-examining the data shows that the dataframe now contains 422,845 entries (433,750 expected). The data is still skewed with several personality types disproportionately represented. 
+Once the entries are split, re-examining the data shows that the dataframe now contains 422,845 entries. Each data entry supposedly contained 50 comments separated by ```|||``` characters, meaning 50x8675 = 433,750 total expected entries. It is likely that many of entries did not contain 50 entries. The data is still skewed with several personality types disproportionately represented. 
 ### 4. Remove Escaping HTML Characters
 Clean out escaping HTML characters, since this data was presumably collected from the web. Escaping HTML characters can muck up code and cause unexpected problems, so get rid of them using the ```html``` library's ```.unescape()``` function. 
 ### 5. Remove Hyperlinks
