@@ -14,10 +14,14 @@ Natural language processing and classification has a variety of applications var
 
    Media companies have build long and illustrious histories of reporting valuable news and delivering useful content in the past, but in the 21st century the move to digital media began to wreck havoc on many last century media giants. The shift in media consumption habits created a valuable marketplace online for digital media gurus to new ways to deliever content, and one of the more modern inventions of content delivery of this century is curate content, which is content delivery tailored to specific audiences based on their media consumption habits. The ability to classify content based on the word usage of the writer to know that writers personality style will also reveal what kind of readers the content will resonate with. Additionally, being able to classify users based on their language usage can reveal valuable details about them that can help tailor specific content for their  consumption.
 
-#### 2. Targeted advertising
+#### 2. Targeted Advertising
 
-   Many modern companies are very image-centric, meaning that they monitor their public image and the ethos that they exude quite religiously. 
+   Many modern companies are very image-centric, meaning that they monitor their public image and the ethos that they exude quite religiously. Knowing what subset of personality types that their advertising campaigns are resonating with provides another layer of understanding beyond simple sentiment analysis. Additionally, a marketing company could more easily target user subsets by identifying their personality types based on their language choice in their posting style and tailor ad content to that particular personality type.
+   
 #### 3. Hiring
 
+   Hiring agencies understand how important it is for a person's personality to match the workplace where they are being placed. Hoever, much foreward-facing content that individuals contribute to professional sites where networking and professionalism are the aim is carefully curated and oriented to be apear professional and appealing. Beyond this curated offering, there is really no way to get a glimpse of what a person is like without a third-party reference to their strengths, weaknesses, and personality attributes. Being able ascertain personality traits from a person's writing style would provide an unbiased measure of where their strengths might lie and what placement would suit them best. 
+
+## What Data is Necessary? 
 
 
