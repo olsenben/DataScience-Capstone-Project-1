@@ -23,5 +23,38 @@ Natural language processing and classification has a variety of applications var
    Hiring agencies understand how important it is for a person's personality to match the workplace where they are being placed. Hoever, much foreward-facing content that individuals contribute to professional sites where networking and professionalism are the aim is carefully curated and oriented to be apear professional and appealing. Beyond this curated offering, there is really no way to get a glimpse of what a person is like without a third-party reference to their strengths, weaknesses, and personality attributes. Being able ascertain personality traits from a person's writing style would provide an unbiased measure of where their strengths might lie and what placement would suit them best. 
 
 ## What Data is Necessary? 
+The dataset in question for this project is a large number of people's MBTI type and content written by them. This data was collected through the PersonalityCafe forum, as it provides a large selection of people and their MBTI personality type, as well as what they have written. The full description for this dataset can be found @ <https://www.kaggle.com/datasnaek/mbti-type>
+
+The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
+
+* Introversion (I) – Extroversion (E)
+* Intuition (N) – Sensing (S)
+* Thinking (T) – Feeling (F)
+* Judging (J) – Perceiving (P)
+
+This dataset contains over 8600 rows of data, on each row is a person’s:
+
+1. Type (This person's 4 letter MBTI code/type)
+2. A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters)). 
+
+### Steps
+The goal was to clean the entries categorized by MBTI type to make it appropriate for use in a text classification model. For this task, ```pandas```, ```matplotlib```, ```nltk```, and ```re``` libraries were be used.
+#### 1. Visualization
+Once the data was read into the environment, there was a total of 8675 rows of data. Using ```.value_counts()``` on personality type showed how many entries the dataset had per personality type. This returned a skewed distribution of data over personality types, meaning that some personality types appeared more often than others. 
+#### 2. Entry Combining
+Each entry was actually described as having 50 separate comments separated by ```"|||"``` characters. Utilizing the ```re``` library's ```.sub()``` function, the pipe characters were replaced with whitespace to create one long string of text. 
+#### 3. Remove Escaping HTML Characters
+The data was cleaned of escaping HTML characters, since this data was presumably collected from the web. Escaping HTML characters can muck up code and cause unexpected problems, so they were removed using the ```html``` library's ```.unescape()``` function. 
+#### 4. Remove Hyperlinks
+Many of the entries contained hyperlinks to webpages. Since there aren't useful in text analysis, they were removed. I wrote a function utilizing the ```re``` library's ```.sub()``` function along with a regular expression to accomplish this. 
+#### 5. Remove Contractions
+All the contractions had to be to be removed. Just like escaping HTML characters, apostrophes can really cause problems later down the road. Also, when the time comes to remove stopwords, it will be better to have the contractions full english representation,  so using a dictionary of contractions, all contractions  were mapped to their regular english counterparts.
+#### 6. Remove Digits
+Since digits don't contribute to text analysis, using ```re``` library's ```.sub()``` and a regular expression, all digits were removed from entries.
+#### 7. Remove Punctuation
+To prevent any odd interaction with code in the future, all punctuation was removed from the entries. It isn't useful anyway. I used ```str.replace()``` with a regular expression to replace all punctuation with an empty string. 
+#### 8. Remove Stopwords
+Finally, all the stop words were removed from the dataframe. Stopwords are words that don't really contribute anything useful to the text analysis so I removed them completely using stopwords from ```nltk.corpus```.
+
 
 
