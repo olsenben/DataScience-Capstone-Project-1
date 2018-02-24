@@ -5,10 +5,12 @@ This project is an effort to determine the usefulness of the Myers Briggs Type I
 
 ## Proposal
 [Capstone Project 1 Proposal](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Capstone_Project_1_Proposal.md)
+
 [Capstone Project 1 - Milestone Report](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Milestone-Report.md)
 
 ## Data Wrangling
 [Data Wrangling Steps](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Data-Wrangling-steps.md)
+
 [MBTI Data Set Wrangling](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/MBTI-Dataset-Data-Wrangling.ipynb)
 
 ## Exploratory Data Analysis
@@ -16,11 +18,15 @@ This project is an effort to determine the usefulness of the Myers Briggs Type I
 
 ## Inferential Statistics
 [MBTI Dataset Inferential Statistics by Class](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/MBTI-Inferential-Statistics-class.ipynb)
+
 [MBTI Dataset Inferential Statistics by Axis](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/MBTI-Dataset-Inferential-Statistics-by%20Axis.ipynb)
 
 ## Classifier Training
 [Classifying Text Features by 16 MBTI Personality Classes.](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Classifying%20Text%20Features%20by%2016%20MBTI%20Personality%20Classes.ipynb)
+
 [Classifying Text Features by Class Within Each Axis](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Classifying%20Text%20Features%20by%20Class%20Within%20Each%20Axis.ipynb)
 
 ## Results
-[Classifying Text Features by Class Within Each Axis](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Classifying%20Text%20Features%20by%20Class%20Within%20Each%20Axis.ipynb)
+[Report - Evaluating the MBTI PErsonality Construct Using Text Data](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Evaluating%20the%20MBTI%20Personality%20Construct%20Using%20Text%20Data%20.pdf)
+
+[Report - Slide Deck](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Capstone%20Project%201%20slidedeck.pdf)
