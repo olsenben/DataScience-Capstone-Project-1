@@ -1,7 +1,11 @@
 # DataScience-Capstone-Project-1
+![alt text](https://startupbeat.com/wp-content/uploads/2015/12/springboard-logo-secondary-RGB.jpg "Logo Title Text 1")
 # Evaluating the MBTI Personality Construct Using Text Data 
 ## Capstone Project 1 for Springboard Data Science Career Track
 This project is an effort to determine the usefulness of the Myers Briggs Type Indicator as a construct of personality using text data. The Myers Briggs Type Indicator (or MBTI) in short is an "introspective self-report questionnaire with the purpose of indicating differing psychological preferences in how people perceive the world around them and make decisions" according to Wikipedia. While generally accepted by various internet communities as a valid assessment of personality type, the professional field of psychology has discarded this test due to its poor retestibility results. While the clinical application of the test has been discredited as unreliable, the test's usefulness has yet to be evaluated in the context of online behavior. This project will attempt to validate the relevance of the MBTI in an online social context by attempting to classify the text that a person posts online by the MBTI classes. While MBTI is no longer considered to be theoretically validated construction of personality, a distinguishable difference in features of text per reported personality could potentially point to a manifestation of personality in posting style.
+
+![alt text](https://oec2solutions.com/wp-content/uploads/2016/12/assglb-700x580.png)
+
 
 ## Proposal
 [Capstone Project 1 Proposal](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Capstone_Project_1_Proposal.md)
