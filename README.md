@@ -30,4 +30,4 @@ This project is an effort to determine the usefulness of the Myers Briggs Type I
 ## Results
 [Report - Evaluating the MBTI PErsonality Construct Using Text Data](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Evaluating%20the%20MBTI%20Personality%20Construct%20Using%20Text%20Data%20.pdf)
 
-[Report - Slide Deck](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Capstone%20Project%201%20slidedeck.pdf)
+[Report - Slide Deck](https://github.com/olsenben/Evaluating-the-MBTI-Personality-Construct-Using-Text-Data/blob/master/Capstone%20Project%201%20slidedeck-2.pdf)
